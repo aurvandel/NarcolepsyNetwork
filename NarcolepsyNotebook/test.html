@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Narcolepsy Notebook: a window to the world of a sleep medicine specialist with Narcolepsy</title>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex">
+        <meta name="description" content="Narcolepsy is a debilitating medical condition that effects a person's quality of life. Watch vlogs and read articles by Dr. Watkins, a nationally recognized sleep specialist and narcolepsy champion">
+        <link rel="stylesheet" href="test.css" type="text/css" media="screen"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header>
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>
+            <div class="menu">
+                <ul>
+                    <a href="#"><li>LINK ONE</li></a>
+                    <a href="#"><li>LINK TWO</li></a>
+                    <a href="#"><li>LINK THREE</li></a>
+                    <a href="#"><li>LINK FOUR</li></a>
+                    <a href="#"><li>LINK FIVE</li></a>
+                </ul>
+            </div>
+        </header>
+        <script type = "text/javascript">
+            $( ".cross" ).hide();
+            $( ".menu" ).hide();
+            $( ".hamburger" ).click(function() {
+                $( ".menu" ).slideToggle( "slow", function() {
+                    $( ".hamburger" ).hide();
+                    $( ".cross" ).show();
+                });
+            });
+
+            $( ".cross" ).click(function() {
+                $( ".menu" ).slideToggle( "slow", function() {
+                    $( ".cross" ).hide();
+                    $( ".hamburger" ).show();
+                });
+            });
+        </script>
+    </body>
+</html>     

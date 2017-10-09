@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Narcolepsy Notebook: a window to the world of a sleep medicine specialist with Narcolepsy</title>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex">
+        <meta name="description" content="Narcolepsy is a debilitating medical condition that effects a person's quality of life. Watch vlogs and read articles by Dr. Watkins, a nationally recognized sleep specialist and narcolepsy champion">
+        <link rel="stylesheet" href="style-Copy.css" type="text/css" media="screen"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            <header>
+                <button class="hamburger">&#9776;</button>
+                <button class="cross">&#735;</button>
+                <nav class="menu">
+                    <ul>                   
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="what.html">What Is Narcolepsy</a></li>
+                        <li><a href="ask.html">Ask The Expert</a></li>
+                        <li><a href="laughs.html">Narcolepsy Humor</a></li>
+                        <li><a href="archives.html">Archives</a></li>
+                        <li><a href="about.html">About Us</a></li> 
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <h1 class="center">Narcolepsy Notebook</h1>
+                <p>
+                    Please enjoy a personal welcome message from Dr. Watkins as he recounts his personal journey; from an unrecognized narcoleptic teenager; his journey through medical school and residency until finally being diagnosed with Narcolepsy years after becoming a sleep medicine specialist.
+                </p>
+                <video poster="/pics/sleep-narcolepsy.jpg" controls autoplay>
+                    <source src="/videos/20161210_intro.mp4" type="video/mp4">
+                </video>
+                <br><br>
+                <p>
+                    Through this adventure we hope to provide answers to common Narcolepsy questions, such as:    
+                </p>
+                <ul>
+                    <li>Common Misconceptions</li>
+                    <li>Signs &amp; Symptoms</li>
+                    <li>How Narcolepsy is Diagnosed</li>
+                    <li>Treatment options</li>
+                    <li>Cutting Edge Research</li>
+                    <li>Heartwarming &amp; Humerous Stories</li>
+                </ul>
+                <p>
+                    So please, sit back, ralax, and allow us to educate you about the world's oldest documented sleep disorder.
+                </p>
+            </main>
+
+            <!--Google Analytics script-->
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                ga('create', 'UA-88402121-1', 'auto');
+                ga('send', 'pageview');
+            </script>
+            <footer>
+                <hr>
+                <div class="xtraspace">Copyright &copy; 2017<a href="privacypolicy.htm">Privacy Policy</a></div>
+                <div><a href="#top">Top</a></div>
+            </footer>          
+        </div>
+        <!--Hamburger Menu Script-->
+        <script type = "text/javascript">
+            $( window ).resize(function(){
+                if ($( window ).width() < 960) {
+                    $( ".cross" ).hide();
+                    $( ".menu" ).hide();
+                    $( ".hamburger" ).click(function() {
+                        $( ".menu" ).slideToggle( "fast", function() {
+                            $( ".hamburger" ).hide();
+                            $( ".cross" ).show();
+                        });
+                    });
+
+                    $( ".cross" ).click(function() {
+                        $( ".menu" ).slideToggle( "fast", function() {
+                            $( ".cross" ).hide();
+                            $( ".hamburger" ).show();
+                        });
+                    });
+                }
+                else {
+                    $( ".cross" ).hide();
+                    $( ".menu" ).hide();
+                    $( ".hamburger" ).hide();
+                }
+            }
+        </script>
+    </body>
+</html>

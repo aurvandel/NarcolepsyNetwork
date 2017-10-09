@@ -1,0 +1,37 @@
+<!--<p>Narcolepsy is a disorder that's difficult for most to understand. Common misconceptions are  propagated from the most brilliant physicians, researchers and especially Hollywood. The goal of Narcolepsy Notebook is to help dispel these myths and shed light on a hard to understand condition.</p>
+
+<!--page that allows for mailing list and vlog releases
+
+<!-- privacy compliance agreement: privacy policy link on index which includes the word privacy
+<!-- CAN SPAM requirements for sending emails: 
+        Not use false or misleading subject or email address
+        Identify the message as an ad in some reasonable way
+        Include the physical address of our business or site headquarters
+        Monitor third-party email marketing services for compliance, if one is used.
+        Honor opt-out/unsubscribe requests quickly.
+        Give an "opt-out" or "unsubscribe" option.
+            If at any time you would like to unsubscribe from receiving future emails, you can: Email us at webmaster@narcolepsynotebook.com and we will promptly remove you from all correspondence.
+link the privacy policy page with the CSS.
+
+-->
+
+<!--
+    IDEAS FOR FURTHER DEVELOPEMENT
+<p>Narcolepsy is a disorder that's difficult for most to understand. Common misconceptions are  propagated from the most brilliant physicians, researchers and especially Hollywood. The goal of Narcolepsy Notebook is to help dispel these myths and shed light on a hard to understand condition.</p>
+
+page that allows for mailing list and vlog release notifications
+links to social networking
+
+create the mobile version
+decide on a color scheme
+decide on the color of validation icon I want and where to put it
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+
+
+<!--            <p>Narcolepsy is a disorder that's difficult for everyone to understand. Common misconceptions are  propagated from the most brilliant physicians, researchers and especially Hollywood. The goal of Narcolepsy Notebook is to help dispel these myths and shed light on a hard to understand condition.</p>-->
